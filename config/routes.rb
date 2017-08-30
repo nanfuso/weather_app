@@ -3,9 +3,7 @@ Rails.application.routes.draw do
 
 
   get '/forecasts' => 'forecasts#index'
-  get '/forecasts/new' => 'forecasts#new'
   post '/forecasts' => 'forecasts#create'
   get '/forecasts/:id' => 'forecasts#show'
-  get '/forecasts/:id/edit' => 'forecasts#edit'
 
 end
