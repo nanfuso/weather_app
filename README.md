@@ -1,6 +1,6 @@
 1. Clone the respository by copying the HTTPS URL and running the following command in the terminal
 
-            git clone your-repository-https-url
+            git clone https://github.com/natail/weather_app.git
 
 2. Once the repository has been cloned, change directories into it by running the following command into the terminal
 
