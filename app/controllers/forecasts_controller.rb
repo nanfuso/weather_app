@@ -1,5 +1,4 @@
 class ForecastsController < ApplicationController
-
     def index
         @zip_code = params[:zip_code] || "60604"
 
@@ -23,7 +22,7 @@ class ForecastsController < ApplicationController
             stale_forecasts = Forecast.where(zip_code: @zip_code).first(3)
             stale_forecasts.each do |stale|
                 stale.destroy
-            end        
+            end 
         end
     end
 end

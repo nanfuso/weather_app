@@ -1,24 +1,17 @@
-# README
+1. Clone the respository by copying the HTTPS URL and running the following command in the terminal
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+            git clone your-repository-https-url
 
-Things you may want to cover:
+2. Once the repository has been cloned, change directories into it by running the following command into the terminal
 
-* Ruby version
+            cd weather_app
 
-* System dependencies
+3. Start up a rails server by running the following command into the terminal
 
-* Configuration
+            rails s -p 3000
 
-* Database creation
+4. open up your internet browser and go to the following URL
 
-* Database initialization
+            http://localhost:3000/
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+5. Use the search bar on the right hand side to find 3 day forecast of desired zip code
